@@ -5,7 +5,7 @@
         <intent><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent>
     </queries>
     <application android:theme="@android:style/Theme.Material.NoActionBar"
-        android:label="EXE AI" android:icon="@drawable/exe_ai_cover" android:usesCleartextTraffic="false" android:allowBackup="false">
+        android:label="EXE AI" android:usesCleartextTraffic="false" android:allowBackup="false">
         <activity android:name=".MainActivity" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
